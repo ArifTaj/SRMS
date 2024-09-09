@@ -1,0 +1,73 @@
+.intro-content {
+    width: 60vw;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #D6EAF8;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+.intro-content > h1 {
+    align-self: center;
+}
+
+.project-details-div {
+    margin-top: 1rem;
+    width: 100%;
+    align-self: center;
+}
+
+.project-details-div ul {
+    margin-left: 2rem;
+}
+
+.project-details-div li {
+    list-style-type: none;
+}
+
+.project-details-div li i {
+    margin-right: 0.5em;
+}
+
+.info-button {
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.info-button a {
+    margin-right: 1rem;
+}
+
+#login-button {
+    background-color: #F7DC6F;
+    color: #002347;
+    border: 0px none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+
+    padding: 0.4rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #fdc632;
+}
+
+#signup-button {
+    background-color: #002347;
+    color: #F7DC6F;
+    border: 0px none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+
+    padding: 0.4rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#signup-button:hover {
+    background-color: #154360;
+}

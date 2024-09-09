@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extrahead %}
+
+    <link rel="stylesheet" type="text/css" href="{% static '/css/home.css' %}">
+
+{% endblock %}
+
+
+{% block content %}
+    <hr />
+
+    <section class="intro-content">
+        <h1>Project Introduction</h1>
+        <div class="project-details-div">
+            <p>
+                <strong>Student Result Management System</strong> helps you manage the results of the students. <br>
+        
+                This is a MCA final year project created for <strong>Manipal University, Jaipur</strong>.
+            </p>
+        </div>
+        <div class="project-details-div">
+            <p>
+                The technology stack used are:
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i>HTML</li>
+                    <li><i class="fa-brands fa-css3-alt"></i>CSS</li>
+                    <li><i class="fa-brands fa-python"></i>Python + Django Framework</li>
+                </ul> 
+            </p>
+        </div>
+        <div class="project-details-div">
+            <p>
+                Student Details:
+                <ul>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i>Name: Arif Taj</li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i>Enrollment No.: 2214503379</li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i>Programme: MCA (Masters of Computer Applications)</li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i>Session: Jan 2024 - July 2024</li>
+                </ul> 
+            </p>
+        </div>
+        <div class="info-button">
+            <a href="{% url 'accounts:account-login' %}"><button id="login-button">Login</button></a>
+            <a href="{% url 'accounts:account-signup' %}"><button id="signup-button">Signup</button></a>
+        </div>
+    </section>
+
+    <hr />
+{% endblock %}
